@@ -46,7 +46,7 @@ config:
     [OUTPUT]
         Name        datadog
         Match       *
-        apikey      10074b6fff91dc0ddc2025ce7dfdb3df
+        apikey      [API-key]
   ## https://docs.fluentbit.io/manual/administration/configuring-fluent-bit/classic-mode/upstream-servers
   ## This configuration is deprecated, please use `extraFiles` instead.
   upstream: {}
